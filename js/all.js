@@ -37,4 +37,4 @@ function filterCategory(e) {
     renderData(showData);
   }
 }
-filter.addEventListener('click', filterCategory);
+filter.addEventListener('click', filterCategory); // 點擊切換v2
