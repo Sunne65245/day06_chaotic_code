@@ -12,14 +12,15 @@ function renderData(item) {
   let str = '';
   item.forEach((b) => {
     const content = `
-    <tr><td>${b.作物名稱}
-    <tr><td>${b.市場名稱}
-    <tr><td>${b.上價}
-    <tr><td>${b.中價}
-    <tr><td>${b.下價}
-    <tr><td>${b.平均價}
-    <tr><td>${b.交易量}
-    <tr><td>`;
+    <tr>
+    <td>${b.作物名稱}<td>
+    <td>${b.市場名稱}<td>
+    <td>${b.上價}<td>
+    <td>${b.中價}<td>
+    <td>${b.下價}<td>
+    <td>${b.平均價}<td>
+    <td>${b.交易量}<td>
+    <tr>`;
     str += content;
     table.innerHTML = str;
   });
